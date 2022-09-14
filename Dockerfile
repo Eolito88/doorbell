@@ -156,7 +156,7 @@ RUN pip install face_recognition && pip install RPi.GPIO && pip install Pillow &
 RUN rm -rf /usr/lib/python3/dist-packages/numpy* && \
     cd ~ && \
     pip install numpy
-
+RUN pip install pyserial
 
 
 
